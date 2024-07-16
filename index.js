@@ -12,7 +12,7 @@ const uploadAnother = document.querySelector('.uploadAnother')
 const formData = new FormData()
 let reader = new FileReader()
 const API_URL = 'https://api.hotpot.ai/colorize-picture'
-const API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjExNTk5MDgsImV4cCI6MTcyMTE2NzEwOH0.UUAiZnJP_Cu7cz-APeYTrf8JxO9dxtfFn2A4lq4lcEk'
+const API_TOKEN = 'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE3MjExNjc0NDQsImV4cCI6MTcyMTE3NDY0NH0.D1dB60ciP8AFLOMRU_DOqmATRK6jIPBfUjPjxAWdNkM'
 const AUTH_TOKEN = 'hotpot-t2mJbCr8292aQzp8CnEPaK'
 const REQ_ID = 'ru2I8VoLBnVUH2P'
 let file
